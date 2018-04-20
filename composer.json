@@ -12,7 +12,8 @@
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.4.0",
         "nesbot/carbon": "~1.21",
-        "santigarcor/laratrust": "5.0.*"
+        "santigarcor/laratrust": "5.0.*",
+        "proengsoft/laravel-jsvalidation": "^2.0"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
@@ -46,7 +47,8 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "@php artisan key:generate"
+            "@php artisan key:generate",
+            "php artisan vendor:publish --provider=\"Proengsoft\\JsValidation\\JsValidationServiceProvider\" --tag=public --force"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
