@@ -162,7 +162,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Proengsoft\JsValidation\JsValidationServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
-
+        Jrean\UserVerification\UserVerificationServiceProvider::class,
     ],
 
     /*
@@ -215,7 +215,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'JsValidator' => Proengsoft\JsValidation\Facades\JsValidatorFacade::class,
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
-
+        'UserVerification' => Jrean\UserVerification\Facades\UserVerification::class,
     ),
 
 ];
