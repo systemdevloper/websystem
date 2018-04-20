@@ -161,6 +161,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Proengsoft\JsValidation\JsValidationServiceProvider::class,
+        Chumper\Datatable\DatatableServiceProvider::class,
 
     ],
 
@@ -213,6 +214,7 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'JsValidator' => Proengsoft\JsValidation\Facades\JsValidatorFacade::class,
+        'Datatable' => 'Chumper\Datatable\Facades\DatatableFacade',
 
     ],
 
