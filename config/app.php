@@ -163,6 +163,8 @@ return [
         Proengsoft\JsValidation\JsValidationServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
         Jrean\UserVerification\UserVerificationServiceProvider::class,
+        Orangehill\Iseed\IseedServiceProvider::class,
+        Mpociot\LaravelTestFactoryHelper\TestFactoryHelperServiceProvider::class,
     ],
 
     /*
